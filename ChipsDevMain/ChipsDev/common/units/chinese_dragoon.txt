@@ -1,0 +1,13 @@
+# Chinese Dragoon 
+
+type = cavalry
+unit_type = chinese
+
+maneuver = 3
+offensive_morale = 6
+defensive_morale = 4
+offensive_fire = 7
+defensive_fire = 4
+offensive_shock = 6
+defensive_shock = 3
+

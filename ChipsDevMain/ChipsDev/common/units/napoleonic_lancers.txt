@@ -1,0 +1,12 @@
+# Napoleonic Lancers
+
+unit_type = western	
+type = cavalry
+
+maneuver = 4
+offensive_morale = 10
+defensive_morale = 9
+offensive_fire = 0
+defensive_fire = 4
+offensive_shock = 11
+defensive_shock = 6

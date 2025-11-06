@@ -1,0 +1,12 @@
+# Russian Cuirassier
+
+type = cavalry
+unit_type = eastern
+
+maneuver = 4
+offensive_morale = 10
+defensive_morale = 8
+offensive_fire = 2
+defensive_fire = 4
+offensive_shock = 11
+defensive_shock = 7

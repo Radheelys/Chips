@@ -1,0 +1,12 @@
+# Bhonsle Cavalry tactics
+
+type = cavalry
+unit_type = indian
+
+maneuver = 5
+offensive_morale = 9
+defensive_morale = 5
+offensive_fire = 4
+defensive_fire = 2
+offensive_shock = 9
+defensive_shock = 4

@@ -1,0 +1,13 @@
+# Flying Battery
+# Most fire power of all artillery, and gives more defense propagation than previous models (representing increased mobility).
+# Has one less offensive morale pip than Royal Mortar, but this is strictly compensated for by offensive fire and shock pips
+
+type = artillery
+
+maneuver = 3
+offensive_morale = 11
+defensive_morale = 4
+offensive_fire = 11
+defensive_fire = 1
+offensive_shock = 5
+defensive_shock = 4

@@ -1,0 +1,12 @@
+# Durrani Dragoon
+	
+type = cavalry
+unit_type = muslim
+
+maneuver = 5	
+offensive_morale = 9
+defensive_morale = 6
+offensive_fire = 6
+defensive_fire = 3
+offensive_shock = 9
+defensive_shock = 5

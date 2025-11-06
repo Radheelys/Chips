@@ -1,0 +1,12 @@
+# Leather Cannon
+# Simply more firepower than chambered demi cannon
+
+type = artillery
+
+maneuver = 3
+offensive_morale = 6
+defensive_morale = 1
+offensive_fire = 7
+defensive_fire = 2
+offensive_shock = 1
+defensive_shock = 3

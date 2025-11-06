@@ -1,0 +1,246 @@
+######################################
+#Tech Group Modifiers
+######################################
+Western_Chips={
+	potential={
+		technology_group = western
+		}
+		
+		trigger={
+			technology_group = western
+		}
+		drill_gain_modifier = 0.10
+}
+
+Chinese_Chips={
+	potential={
+		technology_group = chinese
+		}
+		
+		trigger={
+			technology_group = chinese
+		}
+		global_manpower_modifier = 0.50
+		land_forcelimit_modifier = 0.50
+		land_maintenance_modifier = -0.50
+		land_morale = -0.15
+		technology_cost = 0.20
+		development_cost_in_primary_culture = -0.25
+		global_supply_limit_modifier = 0.15
+		shock_damage_received = 0.10
+}
+
+Aztec_Chips={
+	potential={
+		technology_group = mesoamerican
+		}
+		
+		trigger={
+			technology_group = mesoamerican
+		}
+		global_manpower_modifier = 2
+		land_forcelimit_modifier = 2
+		land_maintenance_modifier = -0.1
+		land_morale = -0.30
+		technology_cost = 0.40
+		development_cost = -0.35
+		global_supply_limit_modifier = 0.80
+		may_perform_slave_raid = yes
+		may_perform_slave_raid_on_same_religion = yes
+		shock_damage_received = 0.25
+}
+
+Sub_Saharan_Chips={
+	potential={
+		technology_group = sub_saharan
+		}
+		
+		trigger={
+			technology_group = sub_saharan
+		}
+		technology_cost = 0.40
+		can_not_build_colonies = yes
+		hostile_attrition = 30
+		development_cost = 0.5
+		can_not_declare_war = yes
+}
+
+East_African_Chips={
+	potential={
+		technology_group = east_african
+		}
+		
+		trigger={
+			technology_group = east_african
+		}
+		technology_cost = 0.30
+		can_not_build_colonies = yes
+}
+
+Central_African_Chips={
+	potential={
+		technology_group = central_african
+		}
+	
+		trigger={
+			technology_group = east_african
+		}
+		technology_cost = 0.40
+		can_not_build_colonies = yes
+}
+
+Horde_Chips={
+	potential={
+		technology_group = nomad_group
+		}
+		
+		trigger={
+			technology_group = nomad_group
+		}
+		technology_cost = 0.30
+		cavalry_cost = -0.20
+		cavalry_power = 0.10
+		cavalry_flanking = 0.25
+		movement_speed = 0.20
+		development_cost = 0.30
+		movement_speed = 0.15
+		military_tactics = 0.10
+		enable_forced_march = yes
+		can_not_build_colonies = yes
+		infantry_power = -0.15
+		artillery_cost = 0.10
+}
+
+Indian_Chips={
+	potential={
+		technology_group = indian
+		}
+		
+		trigger={
+			technology_group = indian
+		}
+		technology_cost = 0.30
+		development_cost = -0.40
+		global_manpower_modifier = 0.50
+		land_forcelimit_modifier = 0.50
+		land_maintenance_modifier = -0.50
+		land_morale = -0.15
+		infantry_power = -0.20
+		can_not_build_colonies = yes
+		cavalry_power = 0.10
+}
+
+North_American_Chips={
+	potential={
+		technology_group = north_american
+		}
+		
+		trigger={
+			technology_group = north_american
+		}
+		technology_cost = 0.50
+		land_morale = 0.10
+		movement_speed = 0.15
+		land_attrition = -0.25
+		hostile_attrition = 5
+		development_cost = 0.5
+		settle_cost = 0.15
+		can_bypass_forts = yes
+}
+
+South_American_Chips={
+	potential={
+		technology_group = south_american
+		}
+		
+		trigger={
+			technology_group = south_american
+		}
+		technology_cost = 0.50
+		land_attrition = -0.25
+		movement_speed = 0.10
+		hostile_attrition = 5
+		development_cost = 0.4
+		settle_cost = 0.10
+		can_bypass_forts = yes
+}
+
+Andean_Chips={
+	potential={
+		technology_group = andean
+		}
+		
+		trigger={
+			technology_group = andean
+		}
+		technology_cost = 0.40
+		global_manpower_modifier = 1.5
+		land_forcelimit_modifier = 1.5
+		land_maintenance_modifier = -0.75
+		land_morale = -0.30
+		development_cost = -0.35
+		global_supply_limit_modifier = 0.75
+		shock_damage_received = 0.20
+}
+
+Ottoman_Chips={
+	potential={
+		technology_group = ottoman
+		}
+		
+		trigger={
+			technology_group = ottoman
+		}
+		technology_cost = 0.10
+		global_manpower_modifier = 0.25
+		land_forcelimit_modifier = 0.25
+		land_maintenance_modifier = -0.10
+		land_morale = -0.10
+		siege_ability = 0.05
+		artillery_barrage_cost = -0.10
+		may_perform_slave_raid = yes
+}
+
+Muslim_Chips={
+	potential={
+		technology_group = muslim
+		}
+		
+		trigger={
+			technology_group = muslim
+		}
+		technology_cost = 0.20
+		may_perform_slave_raid = yes
+		caravan_power = 0.2
+		trade_steering = 0.15
+		global_own_trade_power = 0.1
+		global_manpower_modifier = 0.25
+		land_forcelimit_modifier = 0.25
+		land_maintenance_modifier = -0.10
+		land_morale = -0.10
+}
+
+Aboriginal_Chips={
+	potential={
+		technology_group = aboriginal_tech
+		}
+		
+		trigger={
+			technology_group = aboriginal_tech
+		}
+		technology_cost = 1
+		 can_bypass_forts = yes
+		 enable_forced_march = yes
+		 force_march_free = yes
+		 land_attrition = -0.50
+		 hostile_attrition = 10
+		 can_not_build_buildings = yes
+		 can_not_build_missionaries = yes
+		 can_not_build_colonies = yes
+		 migration_cost = -0.5
+		 settle_cost = 1
+		 can_not_send_merchants = yes
+		 min_autonomy = 50
+		 global_regiment_cost = -0.70
+		 land_maintenance_modifier = -0.80
+}

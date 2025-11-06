@@ -1,0 +1,12 @@
+# Ottoman Toprakli Hit-and-run
+
+type = cavalry
+unit_type = ottoman
+
+maneuver = 4
+offensive_morale = 8
+defensive_morale = 4
+offensive_fire = 5
+defensive_fire = 0
+offensive_shock = 9
+defensive_shock = 3

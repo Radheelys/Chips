@@ -1,0 +1,12 @@
+# Mamluk Musket Charge
+
+type = cavalry
+unit_type = muslim
+
+maneuver = 3
+offensive_morale = 6
+defensive_morale = 4	
+offensive_fire = 4
+defensive_fire = 1
+offensive_shock = 6
+defensive_shock = 3
