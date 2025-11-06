@@ -8,7 +8,7 @@ grain = {
 modifier = {
 	factor = 8
 	is_year = 1445
-}
+	}
 }
 
 wine = {
