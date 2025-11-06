@@ -5,6 +5,10 @@
 # Base resources
 grain = {
 	base_price = 2
+modifier = {
+	factor = 2
+	is_year = 1445
+}
 }
 
 wine = {
