@@ -158,5 +158,3 @@ cocoa = {
 unknown = {
 	color = { 0.5 0.5 0.5 }
 }
-
-#Penits
