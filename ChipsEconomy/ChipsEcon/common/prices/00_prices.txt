@@ -47,10 +47,6 @@ copper = {
 gold = {
 	base_price = 0
 	goldtype = yes
-	max_demand = 5
-	supply = 1
-	demand = {
-	}
 }
 
 iron = {
