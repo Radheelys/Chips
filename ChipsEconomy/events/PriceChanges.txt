@@ -1,7 +1,7 @@
 ####################################################
 # Price Change Events
 #
-# written by Johan Andersson & Henrik Lohmander
+# written by Big Baby Chips & The Count
 ####################################################
 
 namespace = prices
